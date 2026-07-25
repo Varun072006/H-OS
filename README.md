@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/branding/logo-placeholder.svg" alt="HumanOS Logo" width="200"/>
+  <img src="assets/branding/logo.png" alt="HumanOS Logo" width="200"/>
 </p>
 
 <h1 align="center">HumanOS</h1>
