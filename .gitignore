@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML artifacts
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.engine
+wandb/
+mlruns/
+
+# Data
+data/
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.csv
+!configs/**/*.csv
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Docker
+.docker/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
+
+# pytest
+.pytest_cache/
+
+# Distribution
+*.tar.gz
+*.whl
