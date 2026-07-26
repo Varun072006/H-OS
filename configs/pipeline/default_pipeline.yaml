@@ -1,0 +1,13 @@
+camera_id: "webcam:0"
+source_type: "webcam"
+target_fps: 30
+window_size: 30
+topology: "mediapipe_33"
+enable_privacy_zeroing: true
+device: "cpu"
+prediction_modules:
+  - "fall_risk"
+  - "posture"
+  - "activity"
+  - "rehabilitation"
+  - "ergonomics"
