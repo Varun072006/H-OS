@@ -1,0 +1,17 @@
+groups:
+  - name: humanos_alerts
+    rules:
+      - alert: HighInferenceLatency
+        expr: humanos_inference_latency_ms > 200
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Inference latency exceeded target threshold of 200ms"
+      - alert: HighAPIErrorRate
+        expr: humanos_api_errors_total > 10
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High API error rate detected"
