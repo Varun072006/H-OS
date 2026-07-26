@@ -1,0 +1,5 @@
+module_name: "fall_risk"
+threshold_high: 0.5
+threshold_critical: 0.75
+window_size: 30
+model_version: "fall_risk_v1.0"
