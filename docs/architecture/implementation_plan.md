@@ -18,7 +18,7 @@ Step 6  ✅ Training infrastructure (FR-016, FR-017, FR-018) (COMPLETED)
 Step 7  ✅ Motion embeddings & prediction modules (FR-007, FR-008, FR-009) (COMPLETED)
 Step 8  ✅ Privacy enforcement pipeline (NFR-Privacy)  (COMPLETED)
 Step 9  ✅ Backend API server (FR-011, FR-014, FR-015)   (COMPLETED)
-Step 10 → Python SDK (FR-012)
+Step 10 ✅ Python SDK (FR-012)                        (COMPLETED)
 Step 11 → Database layer
 Step 12 → Streaming pipeline (FR-001, FR-002, FR-014)
 Step 13 → Explainability & reasoning (FR-010)
