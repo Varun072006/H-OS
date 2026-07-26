@@ -10,7 +10,7 @@ export interface PredictionItem {
   score: number;
   contributing_features: Array<{ feature?: string; importance: number }>;
   timestamp: string;
-  model_version: str;
+  model_version: string;
 }
 
 export interface DashboardState {
