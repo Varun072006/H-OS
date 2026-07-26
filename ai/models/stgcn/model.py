@@ -56,11 +56,14 @@ class STGCN(nn.Module):
         """Extract 256-dimensional motion embedding vector from skeleton sequence.
 
         Args:
-            x: Input feature tensor of shape (N, C, T, V).
+            x: Input feature tensor of shape (C, T, V) or (N, C, T, V).
 
         Returns:
             Normalized motion embedding tensor of shape (N, embedding_dim).
         """
+        if x.dim() == 3:
+            x = x.unsqueeze(0)  # Shape (1, C, T, V)
+
         N, C, T, V = x.size()
 
         # Batch normalization across joint features
