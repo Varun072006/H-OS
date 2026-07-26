@@ -12,7 +12,7 @@
 <body>
   <h1>HumanOS Web Browser Integration Demo</h1>
   <div class="card">
-    <p>API Endpoint: <span id="endpoint">http://localhost:8000</span></p>
+    <p>API Endpoint: <span id="endpoint">http://localhost:8765</span></p>
     <p>Status: <span id="status" class="green">Checking...</span></p>
     <button onclick="fetchState()">Get Live Human State</button>
   </div>
@@ -21,7 +21,7 @@
   <script>
     async function fetchState() {
       try {
-        const res = await fetch('http://localhost:8000/v1/sessions/sess_demo/state');
+        const res = await fetch('http://localhost:8765/v1/sessions/sess_demo/state');
         const data = await res.json();
         document.getElementById('output').textContent = JSON.stringify(data, null, 2);
         document.getElementById('status').textContent = 'CONNECTED';

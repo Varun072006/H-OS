@@ -6,7 +6,7 @@ services:
       context: ../..
       dockerfile: deployment/docker/Dockerfile.backend
     ports:
-      - "8000:8000"
+      - "8765:8765"
     environment:
       - HUMANOS_SECRET_KEY=humanos_docker_secret_key
       - HUMANOS_DEBUG=true
@@ -19,9 +19,9 @@ services:
       context: ../..
       dockerfile: deployment/docker/Dockerfile.frontend
     ports:
-      - "3000:3000"
+      - "3456:3456"
     environment:
-      - NEXT_PUBLIC_API_URL=http://backend:8000
+      - NEXT_PUBLIC_API_URL=http://backend:8765
     depends_on:
       - backend
 

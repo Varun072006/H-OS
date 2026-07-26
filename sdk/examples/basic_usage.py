@@ -6,7 +6,7 @@ from sdk.python.humanos.client import HumanOSClient
 
 def main() -> None:
     # Initialize client connecting to backend server
-    client = HumanOSClient(endpoint="http://localhost:8000")
+    client = HumanOSClient(endpoint="http://localhost:8765")
 
     # Check system health
     health = client.health()

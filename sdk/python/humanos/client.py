@@ -11,7 +11,7 @@ class HumanOSClient:
 
     def __init__(
         self,
-        endpoint: str = "http://localhost:8000",
+        endpoint: str = "http://localhost:8765",
         api_key: str | None = None,
         timeout: float = 10.0,
     ) -> None:

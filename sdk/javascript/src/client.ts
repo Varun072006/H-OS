@@ -5,7 +5,7 @@ export class HumanOSClient {
   private apiKey?: string;
 
   constructor(options: SDKOptions = {}) {
-    this.endpoint = (options.endpoint || "http://localhost:8000").replace(/\/$/, "");
+    this.endpoint = (options.endpoint || "http://localhost:8765").replace(/\/$/, "");
     this.apiKey = options.apiKey;
   }
 
