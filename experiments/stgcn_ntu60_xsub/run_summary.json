@@ -1,0 +1,71 @@
+{
+  "experiment_name": "stgcn_ntu60_xsub",
+  "params": {
+    "max_epochs": 10,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "device": "cpu"
+  },
+  "metrics": [
+    {
+      "key": "train_loss",
+      "value": 4.098439455032349,
+      "step": 1,
+      "timestamp": "2026-07-26T15:06:27.315913+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 4.093057155609131,
+      "step": 2,
+      "timestamp": "2026-07-26T15:06:34.419364+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 4.048382759094238,
+      "step": 3,
+      "timestamp": "2026-07-26T15:06:41.960569+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 3.9958174228668213,
+      "step": 4,
+      "timestamp": "2026-07-26T15:06:49.506833+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 3.963015079498291,
+      "step": 5,
+      "timestamp": "2026-07-26T15:06:57.431927+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 3.938585638999939,
+      "step": 6,
+      "timestamp": "2026-07-26T15:07:05.261686+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 3.916868567466736,
+      "step": 7,
+      "timestamp": "2026-07-26T15:07:13.099693+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 3.90111768245697,
+      "step": 8,
+      "timestamp": "2026-07-26T15:07:21.368643+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 3.8909804821014404,
+      "step": 9,
+      "timestamp": "2026-07-26T15:07:29.809850+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 3.8848636150360107,
+      "step": 10,
+      "timestamp": "2026-07-26T15:07:37.535350+00:00"
+    }
+  ]
+}

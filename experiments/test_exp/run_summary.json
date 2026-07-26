@@ -1,0 +1,47 @@
+{
+  "experiment_name": "test_exp",
+  "params": {
+    "max_epochs": 2,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "device": "cpu"
+  },
+  "metrics": [
+    {
+      "key": "train_loss",
+      "value": 1.1090867519378662,
+      "step": 1,
+      "timestamp": "2026-07-26T15:19:35.551070+00:00"
+    },
+    {
+      "key": "val_loss",
+      "value": 1.105385184288025,
+      "step": 1,
+      "timestamp": "2026-07-26T15:19:35.607239+00:00"
+    },
+    {
+      "key": "top1_acc",
+      "value": 25.0,
+      "step": 1,
+      "timestamp": "2026-07-26T15:19:35.608242+00:00"
+    },
+    {
+      "key": "train_loss",
+      "value": 1.1021897792816162,
+      "step": 2,
+      "timestamp": "2026-07-26T15:19:35.781028+00:00"
+    },
+    {
+      "key": "val_loss",
+      "value": 1.0825172066688538,
+      "step": 2,
+      "timestamp": "2026-07-26T15:19:35.803967+00:00"
+    },
+    {
+      "key": "top1_acc",
+      "value": 37.5,
+      "step": 2,
+      "timestamp": "2026-07-26T15:19:35.803967+00:00"
+    }
+  ]
+}

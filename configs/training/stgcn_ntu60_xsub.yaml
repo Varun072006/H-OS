@@ -1,0 +1,19 @@
+experiment_name: "stgcn_ntu60_xsub"
+dataset:
+  name: "skeleton_folder"
+  data_dir: "data/ntu60"
+  target_frames: 30
+model:
+  name: "ST-GCN"
+  in_channels: 4
+  num_classes: 60
+  graph_layout: "mediapipe_33"
+  num_joints: 33
+  embedding_dim: 256
+training:
+  max_epochs: 10
+  batch_size: 16
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  device: "cpu"
+  checkpoint_dir: "checkpoints/stgcn_ntu60"
