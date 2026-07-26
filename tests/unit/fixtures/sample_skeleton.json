@@ -1,0 +1,12 @@
+{
+  "topology_name": "mediapipe_33",
+  "person_id": 0,
+  "center_of_mass": [0.5, 0.5, 0.0],
+  "joints": [
+    {"id": 0, "name": "nose", "x": 0.5, "y": 0.2, "z": 0.0, "visibility": 0.99, "confidence": 0.95},
+    {"id": 11, "name": "left_shoulder", "x": 0.4, "y": 0.35, "z": 0.05, "visibility": 0.98, "confidence": 0.94},
+    {"id": 12, "name": "right_shoulder", "x": 0.6, "y": 0.35, "z": -0.05, "visibility": 0.97, "confidence": 0.92},
+    {"id": 23, "name": "left_hip", "x": 0.45, "y": 0.6, "z": 0.02, "visibility": 0.96, "confidence": 0.91},
+    {"id": 24, "name": "right_hip", "x": 0.55, "y": 0.6, "z": -0.02, "visibility": 0.95, "confidence": 0.90}
+  ]
+}
