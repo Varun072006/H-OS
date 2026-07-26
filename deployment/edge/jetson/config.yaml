@@ -1,0 +1,6 @@
+edge_device: "NVIDIA Jetson Orin Nano"
+runtime: "TensorRT"
+precision: "FP16"
+max_batch_size: 2
+inference_device: "CUDA"
+target_fps: 30

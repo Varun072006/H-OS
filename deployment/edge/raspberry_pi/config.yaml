@@ -1,0 +1,6 @@
+edge_device: "Raspberry Pi 5"
+runtime: "ONNXRuntime-CPU"
+precision: "FP32"
+max_batch_size: 1
+target_fps: 15
+num_threads: 4
