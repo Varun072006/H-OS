@@ -1,0 +1,17 @@
+{
+  "name": "@humanos/sdk",
+  "version": "0.1.0",
+  "description": "JavaScript/TypeScript Client SDK for HumanOS — Privacy-First Human Motion Intelligence Platform",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["humanos", "ai", "motion-intelligence", "pose-estimation", "sdk"],
+  "author": "HumanOS Contributors",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}

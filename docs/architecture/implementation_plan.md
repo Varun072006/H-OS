@@ -23,7 +23,7 @@ Step 11 ✅ Database layer                              (COMPLETED)
 Step 12 ✅ Streaming pipeline (FR-001, FR-002, FR-014) (COMPLETED)
 Step 13 ✅ Explainability & reasoning (FR-010)        (COMPLETED)
 Step 14 ✅ Frontend dashboard (FR-019)                (COMPLETED)
-Step 15 → JavaScript SDK (FR-013)
+Step 15 ✅ JavaScript SDK (FR-013)                    (COMPLETED)
 Step 16 → Monitoring & telemetry
 Step 17 → Docker deployment
 Step 18 → Testing & quality gates
