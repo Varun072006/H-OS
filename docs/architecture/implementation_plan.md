@@ -21,7 +21,7 @@ Step 9  ✅ Backend API server (FR-011, FR-014, FR-015)   (COMPLETED)
 Step 10 ✅ Python SDK (FR-012)                        (COMPLETED)
 Step 11 ✅ Database layer                              (COMPLETED)
 Step 12 ✅ Streaming pipeline (FR-001, FR-002, FR-014) (COMPLETED)
-Step 13 → Explainability & reasoning (FR-010)
+Step 13 ✅ Explainability & reasoning (FR-010)        (COMPLETED)
 Step 14 → Frontend dashboard (FR-019)
 Step 15 → JavaScript SDK (FR-013)
 Step 16 → Monitoring & telemetry
