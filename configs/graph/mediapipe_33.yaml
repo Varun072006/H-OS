@@ -1,0 +1,6 @@
+topology_name: "mediapipe_33"
+num_joints: 33
+channels: 4
+include_confidence: true
+center_joint_idx: 23  # left_hip
+default_window_size: 30  # 30 frames (~1 sec at 30 fps)

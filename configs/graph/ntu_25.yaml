@@ -1,0 +1,6 @@
+topology_name: "ntu_25"
+num_joints: 25
+channels: 3
+include_confidence: false
+center_joint_idx: 1  # spine_base / hip
+default_window_size: 30
