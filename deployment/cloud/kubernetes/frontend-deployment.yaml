@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: humanos-frontend
+  namespace: humanos
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: humanos-frontend
+  template:
+    metadata:
+      labels:
+        app: humanos-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: humanos/frontend:v0.1.0
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "2Gi"

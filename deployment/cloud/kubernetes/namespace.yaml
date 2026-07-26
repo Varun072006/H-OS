@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: humanos
+  labels:
+    name: humanos
+    environment: production
