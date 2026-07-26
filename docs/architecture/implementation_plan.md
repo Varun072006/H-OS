@@ -10,7 +10,7 @@
 
 ```
 Step 1  ✅ Repository Architecture & Documentation    (COMPLETED)
-Step 2  → Python project foundation & dev tooling
+Step 2  ✅ Python project foundation & dev tooling     (COMPLETED)
 Step 3  → Pose extraction pipeline (FR-003)
 Step 4  → Motion graph construction (FR-004, FR-005)
 Step 5  → ST-GCN model implementation (FR-006)

@@ -1,0 +1,9 @@
+-r base.txt
+pytest>=8.0.0
+pytest-cov>=4.1.0
+pytest-benchmark>=4.0.0
+pytest-asyncio>=0.23.0
+hypothesis>=6.98.0
+mypy>=1.8.0
+ruff>=0.3.0
+types-requests>=2.31.0
